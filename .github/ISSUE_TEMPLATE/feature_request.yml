@@ -1,0 +1,27 @@
+name: 功能建议
+description: 提议与当前项目范围一致的新能力或改进。
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 使用场景
+      description: 当前遇到了什么问题，哪些用户会受到影响？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 描述期望行为、兼容性要求和可能的替代方案。
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: 风险与发布影响
+      description: 是否影响安装、升级、配置、数据、权限、资金或回滚？
+    validations:
+      required: true
